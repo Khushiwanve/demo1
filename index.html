@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Bollywood Classics</title>
+<style>
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #2c3e50;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(135deg, #2980b9, #8e44ad);
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    border-bottom: 3px solid #16a085;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-left {
+    flex: 1;
+    text-align: left;
+}
+
+.header-title {
+    font-size: 4rem;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.header-description {
+    font-size: 1.2rem;
+    font-family: 'Arial', sans-serif;
+    color: #dcdde1;
+    max-width: 650px;
+    line-height: 1.7;
+    margin-top: 20px;
+}
+
+.header-right {
+    flex: 1;
+    text-align: right;
+}
+
+.header-image {
+    width: 520px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.header-image:hover {
+    transform: scale(1.1);
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #34495e;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+
+
+
+</style>
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-left">
+                <h1 class="header-title">Bollywood Classics</h1>
+                <p class="header-description">
+                    Discover the timeless magic of Bollywood's golden era. A rich tapestry of iconic films, unforgettable performances, and cinematic legacies.
+                </p>
+            </div>
+            <div class="header-right">
+                <img src="Assets/images/allposter.jpg" alt="Classic Bollywood Cinema" class="header-image">
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav-cont">
+        <ul class="nav-link">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="movies.html">MOVIES</a></li>
+            <li><a href="artists.html">ARTISTS</a></li>
+            <li><a href="directors.html">DIRECTORS</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
